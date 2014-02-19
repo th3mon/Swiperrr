@@ -1,0 +1,14 @@
+.Swiperrr ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.Swiperrr {
+    width: 320px;
+    margin: auto;
+}
+.Swiperrr .img--wrapper a,
+.Swiperrr .img--wrapper img {
+    width: 100%;
+    display: block;
+}
