@@ -1,0 +1,82 @@
+
+.Swiperrr {
+    overflow: hidden;
+}
+
+.Swiperrr__slide {
+    float: left;
+    padding-bottom: 10px;
+    height: 100%;
+}
+
+.Swiperrr--duzyformat > div > ul > li,
+.Swiperrr--alehistoria > div > ul > li {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.Swiperrr ul li ul li {
+    display: list-item;
+}
+
+.Swiperrr__nav .btns {
+    margin-top: 10px;
+    margin-bottom: 14px;
+    text-align: center;
+    height: 19px;
+}
+
+.Swiperrr__nav li {
+    display: inline;
+    line-height: 19px;
+    margin-right: 7px;
+    width: auto;
+}
+
+.Swiperrr__nav span {
+    visibility: hidden;
+}
+
+.Swiperrr__nav li:first-child {
+    float: left;
+}
+
+.Swiperrr__nav li:last-child {
+    float: right;
+    margin: 0;
+}
+
+.Swiperrr__nav li a {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.Swiperrr__nav a {
+    background: transparent url("../img/bullets.png") no-repeat -14px 0;
+    height: 12px;
+    display: inline-block;
+    width: 12px;
+}
+
+.Swiperrr__nav .active a {
+    background-position: 0 0;
+}
+
+.Swiperrr__nav li:hover {
+    cursor: pointer;
+}
+.Swiperrr__nav .prev a,
+.Swiperrr__nav .next a {
+    background: transparent;
+}
+
+.Swiperrr__nav .prev,
+.Swiperrr__nav .next {
+    width: 13px;
+    height: 19px;
+    display: block;
+    background: transparent url("../img/arrows.png") 0 0 no-repeat;
+}
+
+.Swiperrr__nav .next {
+    background-position: 0 -19px;
+}
