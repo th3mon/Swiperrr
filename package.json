@@ -1,0 +1,12 @@
+{
+  "name": "Swiperrr",
+  "version": "1.0.0",
+  "author": "Przemysław 'th3mon' Szelenberger",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "jshint": "~2.1.10",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-watch": "~0.5.3"
+  }
+}
