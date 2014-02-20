@@ -7,6 +7,9 @@
     width: 320px;
     margin: auto;
 }
+.Swiperrr .img--wrapper {
+    display: block;
+}
 .Swiperrr .img--wrapper a,
 .Swiperrr .img--wrapper img {
     width: 100%;
