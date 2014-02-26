@@ -2,7 +2,8 @@
     (new Swiperrr({
         numberOfLinks: 7,
         wrapper: 'Swiperrr--wrapper',
-        list: $('.Swiperrr ul')
+        list: $('.Swiperrr ul'),
+        nav: false
     }));
 }(window, document, jQuery));
     

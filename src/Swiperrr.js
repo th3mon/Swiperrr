@@ -204,7 +204,9 @@
 
         this.$list = createOrGetElement(config.list);
         buildWrapper.call(this);
-        buildNavigation.call(this);
+        if (config.nav) {
+            buildNavigation.call(this);
+        }
 
         this.numberOfLinks = (config.numberOfLinks > this.$list.children('li').length) ?
             this.$list.children('li').length :
