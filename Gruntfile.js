@@ -40,7 +40,7 @@ module.exports = function( grunt ) {
         watch: {
             basic: {
                 files: [
-                    'Swiperrr.js'
+                    'src/Swiperrr.js'
                 ],
                 tasks: ['default'],
                 options: {
