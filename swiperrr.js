@@ -1285,7 +1285,9 @@ else window.iScroll = iScroll;
                     },
 
                     onScrollEnd: function () {
-                        updateControls.call(self);
+                        if (this.$btns) {
+                            updateControls.call(self);
+                        }
                     }
                 });
             },
@@ -1320,8 +1322,11 @@ else window.iScroll = iScroll;
                         setTimeout(correctPosition.bind(this), 250);
                     };
 
-                this.$btnPrev.on('click', onPrev.bind(this));
-                this.$btnNext.on('click', onNext.bind(this));
+                if (this.$btns) {
+                    this.$btnPrev.on('click', onPrev.bind(this));
+                    this.$btnNext.on('click', onNext.bind(this));
+                }
+
                 $g.on('resize', onWindowResize.bind(this));
             },
 
