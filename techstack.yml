@@ -1,0 +1,146 @@
+repo_name: th3mon/Swiperrr
+report_id: 3db4d80f9f1719a0dab6515fad7f6607
+repo_type: Public
+timestamp: '2023-11-09T13:17:43+00:00'
+requested_by: th3mon
+provider: github
+branch: master
+detected_tools_count: 10
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: JSHint
+  description: A Static Code Analysis Tool for JavaScript
+  website_url: http://www.jshint.com/about/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/1945/mzh2bRes_400x400.png
+  detection_source: package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2014-02-19 15:31:16.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2014-02-19 15:31:16.000000000 Z
+- name: PonyDebugger
+  description: Remote network and data debugging for your native iOS app using Chrome
+    Developer Tools
+  website_url: https://github.com/square/PonyDebugger
+  open_source: true
+  hosted_saas: false
+  category: Mobile
+  sub_category: Mobile Runtime Inspector
+  image_url: https://img.stackshare.io/service/729/Logo.png
+  detection_source: package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2014-02-19 15:31:16.000000000 Z
+- name: grunt
+  description: The JavaScript Task Runner
+  package_url: https://www.npmjs.com/grunt
+  version: 0.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15835/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2014-02-19 15:31:16.000000000 Z
+  vulnerabilities:
+  - name: Race Condition in Grunt
+    cve_id: CVE-2022-1537
+    cve_url: https://github.com/advisories/GHSA-rm36-94g8-835r
+    detected_date: May 26
+    severity: high
+    first_patched: 1.5.3
+  - name: Arbitrary Code Execution in grunt
+    cve_id: CVE-2020-7729
+    cve_url: https://github.com/advisories/GHSA-m5pj-vjjf-4m3h
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.3.0
+  - name: Path Traversal in Grunt
+    cve_id: CVE-2022-0436
+    cve_url: https://github.com/advisories/GHSA-j383-35pm-c5h4
+    detected_date: Apr 27
+    severity: moderate
+    first_patched: 1.5.2
+- name: grunt-contrib-concat
+  description: Concatenate files
+  package_url: https://www.npmjs.com/grunt-contrib-concat
+  version: 0.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16075/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2014-02-19 15:31:16.000000000 Z
+- name: grunt-contrib-jshint
+  description: Validate files with JSHint
+  package_url: https://www.npmjs.com/grunt-contrib-jshint
+  version: 0.6.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15898/default_59a1b5716eefa3750c20936c3d53ff13a6390ee1.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2014-02-19 15:31:16.000000000 Z
+- name: grunt-contrib-watch
+  description: Run predefined tasks whenever watched file patterns are added
+  package_url: https://www.npmjs.com/grunt-contrib-watch
+  version: 0.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15932/default_4dc9671df0093fd7061f6455afdf054e6cc9dacb.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2014-02-19 15:31:16.000000000 Z
